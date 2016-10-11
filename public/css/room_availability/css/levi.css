@@ -1,0 +1,20 @@
+button
+{
+	margin-top: 0.7cm;
+	margin-left: 90px;
+	-moz-border-radius: 4px;
+    border-radius: 4px;
+    line-height: 2em;
+    padding: 0 2.5em;
+    background: #0066CC;
+	color: white;
+    border: none;
+}
+
+ body
+ {
+ 	margin-top:5cm; 
+ 	margin-left: 15cm;
+ 	background:#eff9f9;
+ 	
+ }

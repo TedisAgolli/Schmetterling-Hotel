@@ -1,0 +1,84 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans'); /*Importing google web fonts.*/
+@font-face{
+	src:url("fonts/pictos-regular-webfont.ttf") format("truetype"),
+		url("fonts/pictos-regular-webfont.otf") format("opentype"),
+		url("fonts/pictos-regular-webfont.svg") format("svg");
+	font-family:icon;
+} /* The font used for the icons.*/
+
+body{ /* Decide on the background and font.*/
+	background:#eff9f9;
+	font-family:'Open Sans';
+}
+
+#block {
+	width:230px;
+	height:113px;
+	margin:auto;
+	margin-top:150px; 
+}
+
+
+
+#block .user{
+	position:absolute;
+	width:33px;
+	height:34px;
+	background:#dedede;
+	margin:0px 15px;
+	text-align:center;
+	font-family:icon;
+	line-height:2.2;
+	color:#FFFFFF;
+	
+}
+#block .pass{
+	position:absolute;
+	width:33px;
+	height:34px;
+	background:#dedede;
+	margin:-5px 15px;
+	text-align:center;
+	font-family:icon;
+	line-height:2.2;
+	color:#FFFFFF;
+	
+}
+.submit{
+	width:100px;
+	height:30px;
+	border:0;
+	margin:50px 65px;
+	background:#0066CC;
+	padding:0;
+	color:#fff;
+	font-size:12px;
+	font-family:'Open Sans';
+}
+
+#block input[type=text]{
+	width:156px;
+	height:32px;
+	margin:15px 15px;
+	padding-left:40px;
+	border:0;
+	display:block;
+	font-size:12px;
+}
+#block input[type=password]{
+	width:156px;
+	height:32px;
+	margin:-5px 15px;
+	padding-left:40px;
+	border:0;
+	display:block;
+	font-size:12px;	
+}
+
+#error_message
+{
+	color:#ff0033;
+	font-style:italic;
+}
+
+
